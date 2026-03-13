@@ -1,0 +1,168 @@
+/* Small device  */
+
+
+@media screen and (max-width:576px) {
+
+    .tittle-section {
+        font-size: 2rem;
+    }
+
+    nav {
+        padding-left: 20px;
+
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    nav ul,
+    .nav-btn {
+        display: none;
+    }
+
+    /* banner section  */
+    #banner {
+        background-image: url("../assets/sm-banner.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 427px;
+        width: 100%;
+    }
+
+    .banner-img-parent {
+        position: relative;
+        margin-top: -25px;
+    }
+
+    .circle {
+        max-width: 200px;
+
+    }
+
+    .mic {
+        max-width: 80px;
+    }
+
+
+    /* about section  */
+
+    .about-content {
+        padding: 0 20px;
+    }
+
+    .hr-about {
+        margin: 40px auto;
+        max-width: 400px;
+    }
+
+    .about-rating {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 20px 40px;
+    }
+
+    /* choose section  */
+    #Choose {
+        padding-bottom: 40px;
+    }
+
+    .choose-container {
+        padding-top: 40px;
+    }
+
+    .choose-box {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding: 20px;
+        gap: 16px;
+        margin: 0 auto;
+        margin-top: 16px;
+        justify-items: center;
+    }
+
+    .choose-card {
+        padding: 24px;
+        width: 300px;
+    }
+
+    /* featured section  */
+    .feature-container {
+        padding-top: 40px;
+    }
+
+    .feature-box {
+        margin-top: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 0 auto;
+        gap: 16px;
+        padding: 20px;
+        max-width: 400px;
+    }
+
+    /* host section  */
+    .meet-container {
+        padding: 40px 20px;
+    }
+
+    .meet-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 0px;
+        margin-top: 24px;
+        padding: 24px;
+        height: 483px;
+        border-radius: 24px;
+        text-align: center;
+    }
+
+    .meet-icon {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+
+    }
+
+    #footer {
+        background: url("../assets/sm-Footer.png");
+        height: 248px;
+        background-size: cover;
+    }
+
+    #footer h2 {
+        padding-top: 40px;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: 16px 14px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+
+    .icon-s-a {
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+    .yt {
+        margin-left: 60px;
+    }
+
+    .copy-right {
+        text-align: center;
+
+    }
+
+
+}
